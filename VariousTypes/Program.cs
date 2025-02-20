@@ -8,6 +8,8 @@ namespace VariousTypes
         private static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
+
+
             int x = 40;
             uint j = 6U;
             long l = 60L;
@@ -39,7 +41,10 @@ namespace VariousTypes
 
             Console.WriteLine(truecondition);
             Console.WriteLine(falsecondition);
+          
+            
            
+            
         }
     }
 }

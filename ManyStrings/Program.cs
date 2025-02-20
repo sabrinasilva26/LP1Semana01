@@ -9,6 +9,9 @@ namespace ManyStrings
         {
         //strings
 
+        double xx = 1.23456;
+        int ii = 19;
+    
         string message = "pode ser utilizada assim";
         string text2 = "strings são um conjunto de caracteres";
         string path = "/Users/sabrinasilva/Documents/MinhaPastaDeLP1/LP1Semana01/ManyStrings/Program.cs";
@@ -34,7 +37,12 @@ namespace ManyStrings
         Console.WriteLine($"A sala tem : {concatenacao1}");
         Console.WriteLine(interpolacao2);
 
+        Console.WriteLine($"{xx:F2}"); 
+        Console.WriteLine($"{xx:P1}");
 
+        Console.WriteLine($"{ii:X}"); 
+        Console.WriteLine($"{ii:C}€");
         }
     }
 }
+
