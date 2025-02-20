@@ -24,6 +24,15 @@ namespace VariousTypes
 
             Console.WriteLine($"char 1: {char1}, char2: {char2}, char3: {char3} ");
 
+            float valor1 = 4.15f;
+            double valor2 = 6.4444;
+            decimal valor3 = 5.77777777m;
+
+            Console.WriteLine(valor1);
+            Console.WriteLine(valor2);
+            Console.WriteLine(valor3);
+
+
         }
     }
 }
