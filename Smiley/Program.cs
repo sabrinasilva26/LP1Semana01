@@ -11,8 +11,8 @@ namespace Smiley
 
             Console.WriteLine("Insere código: ");
             string str = Console.ReadLine();
-           
-            int i = Convert.ToInt32(str);
+            int i = int.Parse(str);
+            int value = Convert.ToInt32(str);
            
             Console.WriteLine($"Caráter Unicode : {value} ");
 
